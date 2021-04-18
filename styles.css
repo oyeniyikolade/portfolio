@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0 auto;
+  background: #e7f1ff;
+}
+
+.container {
+  min-width: 400px;
+  background: #fff;
+}
+
+header {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.profile {
+  display: block;
+  width:35%;
+  height: 25%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  background: rebeccapurple;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+h2,h4 {
+  text-align: center; 
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: fantasy;
+  letter-spacing: 2px;
+}
+
+.img {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.section_img {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+p {
+  font-weight: bold;
+}
